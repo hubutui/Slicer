@@ -1,0 +1,8 @@
+name: "Slicer Qt6 Build"
+description: "Build Slicer with Qt6 using Ubuntu 26.04 packages"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+outputs:
+  package:
+    description: "Name of the generated Slicer package"

@@ -1,0 +1,5 @@
+name: "Slicer Qt6 Arch Linux Build"
+description: "Build Slicer with Qt6 using Arch Linux packages"
+runs:
+  using: "docker"
+  image: "Dockerfile"
